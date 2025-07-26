@@ -65,20 +65,26 @@
 		<div class="container">
 			<h1>Work<br>Experiences</h1>
 			<ul class="work-list">
-				<li>2023-2024</li>
+				<li>Mar 2023 - May 2024</li>
 				<li><a href="#">Design Interactive Web Solutions</a></li>
-				<li>Web Developer</li>
+				<li>Frontend Web Developer</li>
+			</ul>
+   			<ul class="work-list">
+				<li>Jul 2024 - Apr 2025</li>
+				<li><a href="#">Alorica ( Amazon Retail UK )</a></li>
+				<li>Cusyomer Service Representative</li>
 			</ul>
 		
 		</div>
 	</div>
+
 	<!-- Details -->
 	<div class="work section second" id="details">
 		<div class="container">
 			<h1>About Me</h1>
 			<ul class="work-list">
 				<li class="mb-5"> Full Name :<strong> Melvin J. Burgos</strong></li>
-				<li> Age :<strong> 26</strong></li>
+				<li> Age :<strong> 27</strong></li>
 				<li> Gender :<strong> Male</strong></li>
 				<li> Birthday :<strong> May 21 1998</strong></li>
 				<li> Status :<strong> Single</strong></li>
@@ -91,22 +97,41 @@
 
 	<!-- Technical Skills -->
 	<div class="skills section second" id="skills">
-		<div class="container">
-			<h1>Technical<br>Skills</h1>
-			<ul class="skill-list list-flat">
-				<li>Web Technology</li>
-				<li>HTML / CSS / PHP / Javascript</li>
-			</ul>
-			<ul class="skill-list list-flat">
-				<li>Database</li>
-				<li>MySQL</li>
-			</ul>
-			<ul class="skill-list list-flat">
-				<li>Framework</li>
-				<li>Laravel / CodeIgniter </li>
-			</ul>
-		</div>
-	</div>
+    <div class="container">
+        <h1>Technical<br>Skills</h1>
+        <ul class="skill-list list-flat">
+            <li>Web Technology</li>
+            <li>HTML / CSS / PHP / Javascript</li>
+        </ul>
+        <ul class="skill-list list-flat">
+            <li>Database</li>
+            <li>MySQL</li>
+        </ul>
+        <ul class="skill-list list-flat">
+            <li>Framework</li>
+            <li>Laravel / CodeIgniter</li>
+        </ul>
+
+        <h1>Customer Service<br>Skills</h1>
+        <ul class="skill-list list-flat">
+            <li>Communication</li>
+            <li>Active Listening / Empathy / Verbal & Written Communication</li>
+        </ul>
+        <ul class="skill-list list-flat">
+            <li>Problem-Solving</li>
+            <li>Issue Resolution / Critical Thinking / Patience</li>
+        </ul>
+        <ul class="skill-list list-flat">
+            <li>Customer Handling</li>
+            <li>Multitasking / Conflict Management / Time Management</li>
+        </ul>
+        <ul class="skill-list list-flat">
+            <li>Tools</li>
+            <li>CRM Systems / Email Support / Chat Support</li>
+        </ul>
+    </div>
+</div>
+
 
 	<!-- Quote -->
 	<div class="quote">
@@ -140,7 +165,7 @@
     <script>
 		function newTyped(){}$(function(){$("#typed").typed({
 		// Change to edit type effect
-		strings: ["Web Developer"],
+		strings: ["Web Developer","Customer Service Representative"],
 
 		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
     </script>
